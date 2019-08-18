@@ -1,0 +1,768 @@
+/* You can add global styles to this file, and also import other style files */
+$primary: #fac800 !important;
+$primary-dark: #343a40 !important;
+$primary-grey: #5c5d5f !important;
+$color: #313336;
+$hydra-gray: #7d7d7d;
+
+body {
+  font-family: Poppins;
+  background-color: $primary-dark;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6,
+.esport-slider-carousel .slider-wrapper .content .top-title,
+.esport-slider-carousel .slider-wrapper .content .title,
+.content-title-element.size1 .title,
+.content-title-element.size1 .title,
+.content-title-element.size2 .title,
+.achievement-box .point,
+.achievement-box .content .title,
+.player-wrapper .content,
+.team-player-list li .player-wrapper .hover-content .view-profile,
+.player-team-list-wrapper .nav-tabs li a span,
+.esport-counter .number,
+.esport-counter .title,
+.fixtures-wrapper .fixture-list li .left .game,
+.fixtures-wrapper .fixture-list li .left .title,
+.fixtures-wrapper .fixture-list li .right .team-details .team-name,
+.fixtures-wrapper .fixture-list li .score-date,
+.fixtures-wrapper .nav-tabs li a span,
+.alternativeFont,
+.widget-title,
+.header-style-1 .header-main-area .header-menu .navbar .navbar-nav,
+.post-list-style-1 .image .category .post-categories,
+.post-list-style-1 .title,
+.post-list-style-2 .title,
+.content-title-wrapper .title {
+  font-family: Khand;
+}
+
+.header {
+  background-color: $primary;
+}
+
+.header-menu .menu-item:hover {
+  background-color: $primary-dark;
+  color: $primary;
+}
+
+.icon {
+  transition: transform .2s;
+  transform: scale(1);
+}
+
+.icon:hover {
+  background-color: $primary-dark;
+  color: $primary;
+  transition: transform .2s;
+  transform: scale(1.5);
+}
+
+
+.logo-footer {
+  height: auto;
+  width: auto;
+}
+
+.row-logo{
+  //background-color: $primary-grey;
+  margin-left: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.menu-item:active ::before {
+  background-color: $primary-dark;
+  color: $primary;
+}
+
+.dropdown-menu {
+  background-color: $primary;
+  border: none;
+}
+
+.page-title-breadcrumbs .page-title-breadcrumbs-image {
+  background-image: url('./assets/img/lol.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// .page-title-breadcrumbs .page-title-breadcrumbs-profile-image {
+//   background-image: './assets/img/pubg1.jpg';
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+body {
+  background-attachment: fixed;
+}
+
+.parallax-container {
+  min-height: 380px;
+  width: 100vw;
+  background: black;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container {
+    position: absolute;
+  }
+}
+
+.woocommerce form .form-row .required {
+  visibility: visible;
+}
+
+.theiaStickySidebar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wpb_animate_when_almost_visible {
+  opacity: 1;
+}
+
+.vc_custom_1492790774744 {
+  background-color: $primary;
+}
+
+.woocommerce-product-gallery {
+  opacity: 1 !important;
+}
+
+div.wpcf7 {
+  margin: 0;
+  padding: 0;
+}
+
+div.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div.wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em;
+  border: 2px solid #ff0000;
+}
+
+div.wpcf7-mail-sent-ok {
+  border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng,
+div.wpcf7-aborted {
+  border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+  border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+  border: 2px solid #f7e700;
+}
+
+.wpcf7-form-control-wrap {
+  position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+  color: #f00;
+  font-size: 1em;
+  font-weight: normal;
+  display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 100;
+  border: 1px solid #ff0000;
+  background: #fff;
+  padding: 0.2em 0.8em;
+}
+
+span.wpcf7-list-item {
+  display: inline-block;
+  margin: 0 0 0 1em;
+}
+
+span.wpcf7-list-item-label::before,
+span.wpcf7-list-item-label::after {
+  content: " ";
+}
+
+.wpcf7-display-none {
+  display: none;
+}
+
+div.wpcf7 .ajax-loader {
+  visibility: hidden;
+  display: inline-block;
+  background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/contact-form-7/images/ajax-loader.gif);
+  width: 16px;
+  height: 16px;
+  border: none;
+  padding: 0;
+  margin: 0 0 0 4px;
+  vertical-align: middle;
+}
+
+div.wpcf7 .ajax-loader.is-active {
+  visibility: visible;
+}
+
+div.wpcf7 div.ajax-error {
+  display: none;
+}
+
+div.wpcf7 .placeheld {
+  color: #888;
+}
+
+div.wpcf7 .wpcf7-recaptcha iframe {
+  margin-bottom: 0;
+}
+
+div.wpcf7 input[type="file"] {
+  cursor: pointer;
+}
+
+div.wpcf7 input[type="file"]:disabled {
+  cursor: default;
+}
+
+div.wpcf7 .wpcf7-submit:disabled {
+  cursor: not-allowed;
+}
+
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+.footer a,
+.footer a:visited {
+  color: #000000;
+}
+
+.footer-copyright {
+  background: $primary;
+  padding: 30px 0px;
+  color: $primary-dark;
+}
+
+.footer-copyright:after,
+.footer-copyright:before {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.footer-copyright .menu-copyright-menu-container {
+  max-width: 100%;
+  float: none;
+}
+
+.footer-copyright .menu {
+  //list-style: none;
+  //padding: 0px;
+  margin: 0px;
+  //text-align: right;
+}
+
+.footer-copyright .menu li {
+  display: inline-block;
+}
+
+.footer-copyright .menu li:after {
+  content: '-';
+  margin: 0px 5px 0px 7px;
+}
+
+.footer-copyright .menu li:last-child:after {
+  display: none;
+}
+
+.footer-copyright a,
+.footer-copyright a:visited,
+.footer-copyright .menu li a,
+.footer-copyright .menu li a:visited {
+  color: $primary-dark;
+}
+
+.footer-copyright p {
+  margin-bottom: 0px;
+  max-width: 49%;
+  float: left;
+}
+
+.footer-copyright.style2 {
+  background: #f9f9f9;
+  color: #777777;
+}
+
+.footer-copyright.style2 a,
+.footer-copyright.style2 a:visited,
+.footer-copyright.style2 .menu li a,
+.footer-copyright.style2 .menu li a:visited {
+  color: #777777;
+}
+
+.footer-copyright.style2 a,
+.footer-copyright.style2 a:visited,
+.footer-copyright.style2 .menu li a:hover,
+.footer-copyright.style2 .menu li a:focus,
+.footer-copyright a,
+.footer-copyright a:visited,
+.footer-copyright .menu li a:hover,
+.footer-copyright .menu li a:focus {
+  color: #fac800;
+}
+
+.footer.remove-gap-removed {
+  margin-top: 0px;
+}
+
+.footer.footer-style1 a,
+.footer.footer-style1 a:visited {
+  color: #FFFFFF;
+}
+
+.footer.footer-style1 a:hover,
+.footer.footer-style1 a:focus {
+  color: #fac800;
+}
+
+.footer .esport-app-box .app-item i {
+  color: #FFFFFF;
+}
+
+.footer #menu-footer-menu li {
+  background: transparent;
+  font-weight: 500;
+  padding: 0px;
+  border-radius: 0px;
+  margin: 0px;
+}
+
+.footer.footer-style1 #menu-footer-menu li {
+  color: #FFF;
+}
+
+.footer .vc_wp_custommenu {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer #menu-footer-menu li a,
+.footer #menu-footer-menu li a:visited {
+  display: block;
+  padding: 5px 0px;
+  color: #777777;
+}
+
+.footer.footer-style1 #menu-footer-menu li a,
+.footer.footer-style1 #menu-footer-menu li a:visited {
+  color: #FFFFFF;
+}
+
+.footer.footer-style1 #menu-footer-menu li a:hover,
+.footer.footer-style1 #menu-footer-menu li a:focus {
+  color: #fac800;
+}
+
+.footer #menu-footer-menu li a:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f0da";
+  color: #fac800;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.footer.footer-style1 {
+  background-color: #0e0e0e;
+  color: #FFFFFF;
+}
+
+.footer.footer-style2 {
+  background: #ffffff;
+}
+
+.post-content-list .post-content-footer {
+  padding-bottom: 45px;
+  border-bottom: 1px solid #eae6e6;
+  margin-bottom: 40px;
+}
+
+.post-content-list .post-content-footer:after,
+.post-content-list .post-content-footer:before {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.post-content-list .post-content-footer .post-information {
+  list-style: none;
+  padding: 0px;
+  margin: 0px 0px 25px;
+  font-size: 12px;
+  width: 100%;
+  clear: both;
+}
+
+.post-content-list .post-content-footer .post-information:after,
+.post-content-list .post-content-footer .post-information:before {
+  content: '';
+  display: block;
+  clear: none;
+}
+
+.post-content-list .post-content-footer .post-information li {
+  display: inline-block;
+  margin-right: 19px;
+}
+
+.post-content-list .post-content-footer .post-information li i {
+  color: #fac800;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.post-content-list .post-content-footer .post-information li:last-child {
+  margin-right: 0px;
+}
+
+.post-content-list .post-content-footer .post-share {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.post-content-list .post-content-footer .post-share .title {
+  font-weight: 600;
+  color: #666666;
+  text-transform: uppercase;
+  float: left;
+  align-items: center;
+  margin-right: 15px;
+  padding: 6px 00px;
+}
+
+.post-content-list .post-content-footer .post-share ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+.post-content-list .post-content-footer .post-share ul:after,
+.post-content-list .post-content-footer .post-share ul:before {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.post-content-list .post-content-footer .post-share ul li {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.post-content-list .post-content-footer .post-share ul li:last-child {
+  margin-right: 0px;
+}
+
+.post-content-list .post-content-footer .post-share ul li a,
+.post-content-list .post-content-footer .post-share ul li a:visited {
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border: 1px solid #888888;
+  color: #888888;
+  border-radius: 50%;
+  display: block;
+  font-size: 13px;
+}
+
+.post-content-list .post-content-footer .post-share ul li a:hover,
+.post-content-list .post-content-footer .post-share ul li a:focus {
+  background: #fac800;
+  border-color: #fac800;
+  color: #FFFFFF;
+
+}
+
+.post-content-list .post-content-footer .post-share ul li span {
+  display: none;
+}
+
+.post-content-list .post-content-footer .post-tags {
+  float: left;
+  display: block;
+  margin-bottom: -10px;
+}
+
+.post-content-list .post-content-footer .post-tags:after,
+.post-content-list .post-content-footer .post-tags:before {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.post-content-list .post-content-footer .post-tags .title {
+  font-weight: 600;
+  color: #666666;
+  text-transform: uppercase;
+  float: left;
+  align-items: center;
+  margin-right: 15px;
+  padding: 6px 00px;
+}
+
+.post-content-list .post-content-footer .post-tags span {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.post-content-list .post-content-footer .post-tags span:last-child {
+  margin-right: 0px;
+}
+
+.post-content-list .post-content-footer .post-tags span a,
+.post-content-list .post-content-footer .post-tags span a:visited {
+  background: #fac800;
+  border: 1px solid #fac800;
+  color: #FFFFFF;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  padding: 7.5px 25px 3.5px;
+  line-height: initial;
+}
+
+.post-content-list .post-content-footer .post-tags span:hover a,
+.post-content-list .post-content-footer .post-tags span:focus a:visited {
+  background: #FFFFFF;
+  color: #fac800;
+}
+
+.footer-copyright p {
+  float: none;
+  max-width: none;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer-copyright .menu-copyright-menu-container {
+  // max-width: none;
+  // float: none;
+}
+
+.footer-copyright .menu {
+  text-align: center;
+}
+
+.footer .vc_column_container {
+  margin-bottom: 60px;
+}
+
+.footer .vc_column_container:last-child {
+  margin-bottom: 0px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block
+}
+
+blockquote .small,
+blockquote footer,
+blockquote small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777
+}
+
+blockquote .small:before,
+blockquote footer:before,
+blockquote small:before {
+  content: '\2014 \00A0'
+}
+
+.blockquote-reverse .small:before,
+.blockquote-reverse footer:before,
+.blockquote-reverse small:before,
+blockquote.pull-right .small:before,
+blockquote.pull-right footer:before,
+blockquote.pull-right small:before {
+  content: ''
+}
+
+.blockquote-reverse .small:after,
+.blockquote-reverse footer:after,
+.blockquote-reverse small:after,
+blockquote.pull-right .small:after,
+blockquote.pull-right footer:after,
+blockquote.pull-right small:after {
+  content: '\00A0 \2014'
+}
+
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+
+.list-group+.panel-footer {
+  border-top-width: 0
+}
+
+.panel-group .panel-footer {
+  border-top: 0
+}
+
+.panel-group .panel-footer+.panel-collapse .panel-body {
+  border-bottom: 1px solid #ddd
+}
+
+.panel-default>.panel-footer+.panel-collapse>.panel-body {
+  border-bottom-color: #ddd
+}
+
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5
+}
+
+.panel-danger>.panel-footer+.panel-collapse>.panel-body {
+  border-bottom-color: #ebccd1
+}
+
+.panel-warning>.panel-footer+.panel-collapse>.panel-body {
+  border-bottom-color: #faebcc
+}
+
+.panel-info>.panel-footer+.panel-collapse>.panel-body {
+  border-bottom-color: #bce8f1
+}
+
+.panel-success>.panel-footer+.panel-collapse>.panel-body {
+  border-bottom-color: #d6e9c6
+}
+
+.panel-primary>.panel-footer+.panel-collapse>.panel-body {
+  border-bottom-color: #337ab7
+}
+
+.modal-footer .btn+.btn {
+  margin-bottom: 0;
+  margin-left: 5px
+}
+
+.modal-footer .btn-group .btn+.btn {
+  margin-left: -1px
+}
+
+.modal-footer .btn-block+.btn-block {
+  margin-left: 0
+}
+
+.footer {
+  background-size: cover;
+  background-position: center;
+  clear: both;
+  padding: 82px 0px 80px;
+  margin-top: 90px;
+}
+
+.no-footer-blank {
+  margin-top: 90px;
+}
+
+#bbpress-forums li.bbp-header,
+#bbpress-forums li.bbp-footer {
+  background: #fac800;
+  border-top-color: #fac800;
+  font-weight: 600;
+  color: #FFF;
+}
+
+#bbpress-forums li.bbp-header a,
+#bbpress-forums li.bbp-header a:visited,
+#bbpress-forums li.bbp-footer a,
+#bbpress-forums li.bbp-footer a:visited {
+  color: #FFF;
+}
+
+#bbpress-forums li.bbp-header a:hover,
+#bbpress-forums li.bbp-header a:focus,
+#bbpress-forums li.bbp-footer a:hover,
+#bbpress-forums li.bbp-footer a:focus {
+  text-decoration: underline;
+}
+
+#bbpress-forums li.bbp-footer {
+  display: none;
+}
+
+
+////////////////Body SCSS
+
