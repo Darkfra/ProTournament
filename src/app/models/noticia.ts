@@ -3,6 +3,6 @@ export class Noticia{
   userKey: string;
   date: Date;
   title: string;
-  decription: string;
+  description: string;
   img: string;
 }
