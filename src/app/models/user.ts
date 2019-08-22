@@ -6,10 +6,10 @@ export class User {
   email: string;
   photoURL: string;
   singupBy: string;
-  uid:string;
+  uid: string;
   teamKey: string;
   idPlay: string;
   region: string;
   paginaStrimer: string;
-  rolKey: String;
+  rolKey: string;
 }

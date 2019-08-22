@@ -1,4 +1,4 @@
-export class Noticia{
+export class News {
   $key: string;
   userKey: string;
   date: Date;

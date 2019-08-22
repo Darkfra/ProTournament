@@ -1,4 +1,4 @@
-export class Roles{
+export class Roles {
   strimer?: boolean;
   user?: boolean;
 

@@ -1,4 +1,4 @@
-export class Team{
+export class Team {
   $key: string;
   name: string;
   img: string;

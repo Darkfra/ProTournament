@@ -1,4 +1,4 @@
-export class Game{
+export class Game {
   $key: string;
   name: string;
   plataform: Date;
