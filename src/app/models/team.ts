@@ -7,4 +7,5 @@ export class Team {
   leader2: string;
   leader3: string;
   region: string;
+
 }

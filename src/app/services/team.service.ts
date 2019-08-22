@@ -1,48 +1,39 @@
 import { Injectable } from '@angular/core';
-import { Team } from './../models/team';
-// conexion a firebase
-import { AngularFireDatabase, AngularFireList } from 'angularfire2/database';
+import { Observable } from 'rxjs';
+
+// FIREBASE
+import { AngularFirestore } from 'angularfire2/firestore';
+
+// MODELS
+import { List } from '../models/list';
+import { Team } from '../models/team';
 
 @Injectable({
   providedIn: 'root'
 })
-export class TeamService {
+export class TeamService extends List<Team> {
 
-  // list firebase
-  teamsList: AngularFireList<any>;
-  selectTeam: Team = new Team();
-
-  constructor(private firebase: AngularFireDatabase) { }
-
-  getTeams() {
-    return this.teamsList = this.firebase.list('teams');
+  constructor(private firestore: AngularFirestore) {
+    super();
   }
 
-  insertTeam(team: Team) {
-    this.teamsList.push({
-      name: team.name,
-      img: team.img,
-      description: team.description,
-      leader1: team.leader1,
-      leader2: team.leader2,
-      leader3: team.leader3,
-      region: team.region
-    });
+  public create(item: Team, collection: string): any {
+    return this.firestore.collection(collection).add(item);
   }
 
-  updateTeam(team: Team) {
-    this.teamsList.update(team.$key, {
-      name: team.name,
-      img: team.img,
-      description: team.description,
-      leader1: team.leader1,
-      leader2: team.leader2,
-      leader3: team.leader3,
-      region: team.region
-    });
+  public update(item: Team, documentId: string, collection: string): any {
+    return this.firestore.collection(collection).doc(documentId).set(item);
   }
 
-  deleteTeam($key: string) {
-    this.teamsList.remove($key);
+  public delete(documentId: string, collection: string): any {
+    return this.firestore.collection(collection).doc(documentId).delete();
+  }
+
+  public get(documentId: string, collection: string): Observable<any> {
+    return this.firestore.collection(collection).doc(documentId).snapshotChanges();
+  }
+
+  public gets(collection: string): Observable<any> {
+    return this.firestore.collection(collection).snapshotChanges();
   }
 }

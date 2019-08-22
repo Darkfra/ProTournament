@@ -3,4 +3,5 @@ export class Game {
   name: string;
   plataform: Date;
   apiEndPoint: string;
+
 }
