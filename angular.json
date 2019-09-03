@@ -28,11 +28,11 @@
             ],
             "styles": [
               "src/styles.scss",
-              "./src/assets/css/body.css"
+              "src/assets/css/body.css"
             ],
             "scripts": [
-              "./src/assets/js/materialize.js",
-              "./src/assets/js/login.js"
+              "src/assets/js/materialize.js",
+              "src/assets/js/login.js"
             ],
             "es5BrowserSupport": true
           },

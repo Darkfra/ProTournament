@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from 'src/app/services/auth.service';
 
 declare function loadLogin(): any;
 
@@ -9,10 +10,17 @@ declare function loadLogin(): any;
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private serviceAuth: AuthService) { }
 
   ngOnInit() {
     loadLogin();
+  }
+
+  loginGoogle(){
+    this.serviceAuth.doGoogleLogin();
+  }
+  loginFacebook(){
+    this.serviceAuth.doFacebookLogin();
   }
 
 }
