@@ -86,10 +86,12 @@ figure {
 }
 
 hr {
-     height: 0;
+     height: 2px;
      -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
-     box-sizing: content-box
+     box-sizing: content-box;
+     background-color: #fac800 !important;
+     border: 0;
 }
 
 pre {
@@ -241,12 +243,6 @@ td, th {
      .table-bordered td, .table-bordered th {
           border: 1px solid #ddd !important
      }
-}
-
-@font-face {
-     font-family: 'Glyphicons Halflings';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/glyphicons-halflings-regular.eot);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/glyphicons-halflings-regular.woff) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 .glyphicon {
@@ -6868,14 +6864,6 @@ button.close {
      .hidden-print {
           display: none !important
      }
-}
-
-@font-face {
-     font-family: 'FontAwesome';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/fontawesome-webfont.eot?v=4.7.0);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
-     font-weight: normal;
-     font-style: normal
 }
 
 .fa {
@@ -14307,14 +14295,6 @@ div.cs-active {
      cursor: default;
 }
 
-@font-face {
-     font-family: 'icomoon';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?-rdnm34);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?#iefix-rdnm34) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.woff?-rdnm34) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.ttf?-rdnm34) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.svg?-rdnm34#icomoon) format('svg');
-     font-weight: normal;
-     font-style: normal;
-}
-
 div.cs-skin-border {
      background: transparent;
      font-size: 2em;
@@ -14382,14 +14362,6 @@ div.cs-skin-border {
 
 .cs-skin-border .cs-options li span:hover, .cs-skin-border li.cs-focus span {
      background: #f5f3ec;
-}
-
-@font-face {
-     font-family: 'icomoon';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?-rdnm34);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?#iefix-rdnm34) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.woff?-rdnm34) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.ttf?-rdnm34) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.svg?-rdnm34#icomoon) format('svg');
-     font-weight: normal;
-     font-style: normal;
 }
 
 div.cs-skin-boxes {
@@ -14696,14 +14668,6 @@ div.cs-skin-boxes {
      color: #333;
 }
 
-@font-face {
-     font-family: 'icomoon';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?-rdnm34);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?#iefix-rdnm34) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.woff?-rdnm34) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.ttf?-rdnm34) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.svg?-rdnm34#icomoon) format('svg');
-     font-weight: normal;
-     font-style: normal;
-}
-
 div.cs-skin-circular {
      background: transparent;
      font-size: 2em;
@@ -14807,38 +14771,6 @@ div.cs-skin-circular {
      opacity: 0.7;
 }
 
-.cs-skin-circular .cs-options li:first-child {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/1.png);
-}
-
-.cs-skin-circular .cs-options li:nth-child(2) {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/2.png);
-}
-
-.cs-skin-circular .cs-options li:nth-child(3) {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/3.png);
-}
-
-.cs-skin-circular .cs-options li:nth-child(4) {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/4.png);
-}
-
-.cs-skin-circular .cs-options li:nth-child(5) {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/5.png);
-}
-
-.cs-skin-circular .cs-options li:nth-child(6) {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/6.png);
-}
-
-.cs-skin-circular .cs-options li:nth-child(7) {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/7.png);
-}
-
-.cs-skin-circular .cs-options li:nth-child(8) {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/8.png);
-}
-
 .cs-skin-circular.cs-active .cs-options li:first-child {
      -webkit-transform: translate3d(0, -160px, 0);
      transform: translate3d(0, -160px, 0);
@@ -14886,14 +14818,6 @@ div.cs-skin-circular {
 .cs-skin-circular .cs-options li.cs-focus {
      background-color: transparent;
      opacity: 0.7;
-}
-
-@font-face {
-     font-family: 'icomoon';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?-rdnm34);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?#iefix-rdnm34) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.woff?-rdnm34) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.ttf?-rdnm34) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.svg?-rdnm34#icomoon) format('svg');
-     font-weight: normal;
-     font-style: normal;
 }
 
 div.cs-skin-elastic {
@@ -14992,22 +14916,6 @@ div.cs-skin-elastic {
      content: '';
 }
 
-.cs-skin-elastic .cs-options li.flag-france span {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/france.svg);
-}
-
-.cs-skin-elastic .cs-options li.flag-brazil span {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/brazil.svg);
-}
-
-.cs-skin-elastic .cs-options li.flag-safrica span {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/south-africa.svg);
-}
-
-.cs-skin-elastic .cs-options li.flag-argentina span {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/argentina.svg);
-}
-
 @-webkit-keyframes expand {
      0% {
           -webkit-transform: scale3d(1, 0, 1);
@@ -15092,14 +15000,6 @@ div.cs-skin-elastic {
           transform: translate3d(0, 0, 0);
           opacity: 1;
      }
-}
-
-@font-face {
-     font-family: 'icomoon';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?-rdnm34);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?#iefix-rdnm34) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.woff?-rdnm34) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.ttf?-rdnm34) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.svg?-rdnm34#icomoon) format('svg');
-     font-weight: normal;
-     font-style: normal;
 }
 
 div.cs-skin-overlay {
@@ -15244,14 +15144,6 @@ div.cs-skin-overlay {
      background: transparent;
 }
 
-@font-face {
-     font-family: 'icomoon';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?-rdnm34);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?#iefix-rdnm34) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.woff?-rdnm34) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.ttf?-rdnm34) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.svg?-rdnm34#icomoon) format('svg');
-     font-weight: normal;
-     font-style: normal;
-}
-
 div.cs-skin-rotate {
      background: transparent;
      font-size: 1.5em;
@@ -15380,14 +15272,6 @@ div.cs-skin-rotate {
 .cs-skin-rotate .cs-options li span:hover, .cs-skin-rotate .cs-options li.cs-focus span, .cs-skin-rotate .cs-selected span {
      opacity: 0.8;
      background: transparent;
-}
-
-@font-face {
-     font-family: 'icomoon';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?-rdnm34);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?#iefix-rdnm34) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.woff?-rdnm34) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.ttf?-rdnm34) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.svg?-rdnm34#icomoon) format('svg');
-     font-weight: normal;
-     font-style: normal;
 }
 
 div.cs-skin-slide {
@@ -15555,14 +15439,6 @@ div.cs-skin-slide::before {
 
 .icon-shirt span::before {
      content: '\e00c';
-}
-
-@font-face {
-     font-family: 'icomoon';
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?-rdnm34);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.eot?#iefix-rdnm34) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.woff?-rdnm34) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.ttf?-rdnm34) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/fonts/icomoon/icomoon.svg?-rdnm34#icomoon) format('svg');
-     font-weight: normal;
-     font-style: normal;
 }
 
 div.cs-skin-underline {
@@ -18175,7 +18051,7 @@ blockquote.right {}
 }
 
 .page-title-breadcrumbs .page-title-breadcrumbs-image {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/themes/esport/assets/img/breadcrumbs-bg.jpg);
+     background-image: url();
      background-size: cover;
      position: absolute;
      opacity: 0.30;
@@ -18376,6 +18252,7 @@ blockquote.right {}
 
 .content-title-element.size1 .title span {
      color: #fac800;
+     text-shadow: 2px 2px #000000 !important;
 }
 
 .content-title-element.size1 .description {
@@ -23336,158 +23213,6 @@ div.bbp-breadcrumb .bbp-breadcrumb-sep, div.bbp-topic-tags .bbp-breadcrumb-sep {
      background-repeat: no-repeat
 }
 
-.vc_pixel_icon-alert {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/vc/alert.png)
-}
-
-.vc_pixel_icon-info {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/vc/info.png)
-}
-
-.vc_pixel_icon-tick {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/vc/tick.png)
-}
-
-.vc_pixel_icon-explanation {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/vc/exclamation.png)
-}
-
-.vc_pixel_icon-address_book {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/address-book.png)
-}
-
-.vc_pixel_icon-alarm_clock {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/alarm-clock.png)
-}
-
-.vc_pixel_icon-anchor {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/anchor.png)
-}
-
-.vc_pixel_icon-application_image {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/application-image.png)
-}
-
-.vc_pixel_icon-arrow {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/arrow.png)
-}
-
-.vc_pixel_icon-asterisk {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/asterisk.png)
-}
-
-.vc_pixel_icon-hammer {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/auction-hammer.png)
-}
-
-.vc_pixel_icon-balloon {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/balloon.png)
-}
-
-.vc_pixel_icon-balloon_buzz {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/balloon-buzz.png)
-}
-
-.vc_pixel_icon-balloon_facebook {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/balloon-facebook.png)
-}
-
-.vc_pixel_icon-balloon_twitter {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/balloon-twitter.png)
-}
-
-.vc_pixel_icon-battery {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/battery-full.png)
-}
-
-.vc_pixel_icon-binocular {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/binocular.png)
-}
-
-.vc_pixel_icon-document_excel {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-excel.png)
-}
-
-.vc_pixel_icon-document_image {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-image.png)
-}
-
-.vc_pixel_icon-document_music {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-music.png)
-}
-
-.vc_pixel_icon-document_office {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-office.png)
-}
-
-.vc_pixel_icon-document_pdf {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-pdf.png)
-}
-
-.vc_pixel_icon-document_powerpoint {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-powerpoint.png)
-}
-
-.vc_pixel_icon-document_word {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-word.png)
-}
-
-.vc_pixel_icon-bookmark {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/bookmark.png)
-}
-
-.vc_pixel_icon-camcorder {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/camcorder.png)
-}
-
-.vc_pixel_icon-camera {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/camera.png)
-}
-
-.vc_pixel_icon-chart {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/chart.png)
-}
-
-.vc_pixel_icon-chart_pie {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/chart-pie.png)
-}
-
-.vc_pixel_icon-clock {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/clock.png)
-}
-
-.vc_pixel_icon-play {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/control.png)
-}
-
-.vc_pixel_icon-fire {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/fire.png)
-}
-
-.vc_pixel_icon-heart {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/heart.png)
-}
-
-.vc_pixel_icon-mail {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/mail.png)
-}
-
-.vc_pixel_icon-shield {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/plus-shield.png)
-}
-
-.vc_pixel_icon-video {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/video.png)
-}
-
-@font-face {
-     font-family: vcpb-plugin-icons;
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62#iefix) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf?f6ud62) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff?f6ud62) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg?f6ud62#vcpb-plugin-icons) format('svg');
-     font-weight: 400;
-     font-style: normal
-}
-
 .vc-composer-icon {
      font-family: vcpb-plugin-icons !important;
      speak: none;
@@ -24685,134 +24410,6 @@ i.icon {
 
 .wpb_btn-mini i.icon {
      display: none
-}
-
-.wpb_address_book i.icon, option.wpb_address_book {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/address-book.png) no-repeat right center
-}
-
-.wpb_alarm_clock i.icon, option.wpb_alarm_clock {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/alarm-clock.png) no-repeat right center
-}
-
-.wpb_anchor i.icon, option.wpb_anchor {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/anchor.png) no-repeat right center
-}
-
-.wpb_application_image i.icon, option.wpb_application_image {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/application-image.png) no-repeat right center
-}
-
-.wpb_arrow i.icon, option.wpb_arrow {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/arrow.png) no-repeat right center
-}
-
-.wpb_asterisk i.icon, option.wpb_asterisk {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/asterisk.png) no-repeat right center
-}
-
-.wpb_hammer i.icon, option.wpb_hammer {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/auction-hammer.png) no-repeat right center
-}
-
-.wpb_balloon i.icon, option.wpb_balloon {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/balloon.png) no-repeat right center
-}
-
-.wpb_balloon_buzz i.icon, option.wpb_balloon_buzz {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/balloon-buzz.png) no-repeat right center
-}
-
-.wpb_balloon_facebook i.icon, option.wpb_balloon_facebook {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/balloon-facebook.png) no-repeat right center
-}
-
-.wpb_balloon_twitter i.icon, option.wpb_balloon_twitter {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/balloon-twitter.png) no-repeat right center
-}
-
-.wpb_battery i.icon, option.wpb_battery {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/battery-full.png) no-repeat right center
-}
-
-.wpb_binocular i.icon, option.wpb_binocular {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/binocular.png) no-repeat right center
-}
-
-.wpb_document_excel i.icon, option.wpb_document_excel {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-excel.png) no-repeat right center
-}
-
-.wpb_document_image i.icon, option.wpb_document_image {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-image.png) no-repeat right center
-}
-
-.wpb_document_music i.icon, option.wpb_document_music {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-music.png) no-repeat right center
-}
-
-.wpb_document_office i.icon, option.wpb_document_office {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-office.png) no-repeat right center
-}
-
-.wpb_document_pdf i.icon, option.wpb_document_pdf {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-pdf.png) no-repeat right center
-}
-
-.wpb_document_powerpoint i.icon, option.wpb_document_powerpoint {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-powerpoint.png) no-repeat right center
-}
-
-.wpb_document_word i.icon, option.wpb_document_word {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/blue-document-word.png) no-repeat right center
-}
-
-.wpb_bookmark i.icon, option.wpb_bookmark {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/bookmark.png) no-repeat right center
-}
-
-.wpb_camcorder i.icon, option.wpb_camcorder {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/camcorder.png) no-repeat right center
-}
-
-.wpb_camera i.icon, option.wpb_camera {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/camera.png) no-repeat right center
-}
-
-.wpb_chart i.icon, option.wpb_chart {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/chart.png) no-repeat right center
-}
-
-.wpb_chart_pie i.icon, option.wpb_chart_pie {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/chart-pie.png) no-repeat right center
-}
-
-.wpb_clock i.icon, option.wpb_clock {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/clock.png) no-repeat right center
-}
-
-.wpb_play i.icon, option.wpb_play {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/control.png) no-repeat right center
-}
-
-.wpb_fire i.icon, option.wpb_fire {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/fire.png) no-repeat right center
-}
-
-.wpb_heart i.icon, option.wpb_heart {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/heart.png) no-repeat right center
-}
-
-.wpb_mail i.icon, option.wpb_mail {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/mail.png) no-repeat right center
-}
-
-.wpb_shield i.icon, option.wpb_shield {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/plus-shield.png) no-repeat right center
-}
-
-.wpb_video i.icon, option.wpb_video {
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/icons/video.png) no-repeat right center
 }
 
 .vc_column_container .vc_btn, .vc_column_container .wpb_button {
@@ -33677,15 +33274,10 @@ a.wpb_button_a:hover {
      display: block;
      width: 16px;
      height: 16px;
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/toggle_open.png);
      background-repeat: no-repeat;
      position: absolute;
      right: .7em;
      top: .7em
-}
-
-.wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/toggle_close.png)
 }
 
 @media (max-width:480px) {
@@ -33941,7 +33533,6 @@ body ul.wpb_thumbnails-fluid li .entry-content :last-child {
 }
 
 .wpb_flickr_widget p.flickr_stream_wrap a {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/flickr.png);
      background-repeat: no-repeat;
      background-position: left center;
      padding-left: 25px;
@@ -36950,7 +36541,6 @@ body ul.wpb_thumbnails-fluid li .entry-content :last-child {
 }
 
 .vc_grid-item-mini.vc_is-hover .vc_gitem-animate-blurOut .vc_gitem-zone-a, .vc_grid-item-mini.vc_is-hover .vc_gitem-animate-blurScaleOut .vc_gitem-zone-a {
-     filter: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/vc/blur.svg#blur);
      -webkit-filter: blur(2px);
      -moz-filter: blur(2px);
      -ms-filter: blur(2px);
@@ -39038,14 +38628,6 @@ body ul.wpb_thumbnails-fluid li .entry-content :last-child {
      transform: rotateY(-180deg)
 }
 
-@font-face {
-     font-family: vc_grid_v1;
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.eot?-9hbgac);
-     src: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.eot?#iefix-9hbgac) format('embedded-opentype'), url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.woff?-9hbgac) format('woff'), url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.ttf?-9hbgac) format('truetype'), url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.svg?-9hbgac#vc_grid_v1) format('svg');
-     font-weight: 400;
-     font-style: normal
-}
-
 [class*=" vc_arrow-icon-"], [class^=vc_arrow-icon-] {
      font-family: vc_grid_v1;
      speak: none;
@@ -39479,17 +39061,8 @@ body ul.wpb_thumbnails-fluid li .entry-content :last-child {
      display: inline-block;
      pointer-events: none;
      margin-top: 6px;
-     background: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/images/spinner.gif) no-repeat;
      background-position-x: center;
      background-position-y: center
-}
-
-.vc-spinner.vc-spinner-complete::before {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/vc/tick.png)
-}
-
-.vc-spinner.vc-spinner-failed::before {
-     background-image: url(//demo.gloriathemes.com/wp/esport/wp-content/plugins/js_composer/assets/vc/remove.png)
 }
 
 .vc-woocommerce-add-to-cart-loading.vc_grid-item-mini {
