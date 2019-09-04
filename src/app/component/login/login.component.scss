@@ -40,7 +40,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 200%;
     position: absolute;
-    opacity: 0.6;
+   // opacity: 0.6;
     top: 0;
     left: 0;
     width: 100%;
@@ -126,10 +126,11 @@ h1 {
 }
 
 .login-button {
-    border-radius: 20px;
-    border: 1px solid var($button-border-color);
+    border-radius: 5px;
+    background-image: linear-gradient(to right top, #fac800, #f7cf44, #f4d669, #f2dc8a, #f0e2a9);
+    box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
     background: var($button-color);
-    color: white;
+    color: #0000009c;
     font-size: 12px;
     font-weight: bold;
     padding: 12px 15px;
@@ -222,6 +223,9 @@ form .login-input {
     -webkit-transition-duration: .25s;
     transition-duration: .25s;
     width: 100%;
+    box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
+    display: block;
+    margin-bottom: 5%;
 }
 
 form .login-input:focus {

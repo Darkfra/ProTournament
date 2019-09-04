@@ -19353,7 +19353,7 @@ div.wpcf7-response-output {
 }
 
 .header-style-1 {
-     padding: 15px 0px;
+     /* padding: 15px 0px; */
      margin-bottom: 90px;
      border-bottom: 1px solid #f3f3f3;
      background: #FFFFFF;
@@ -19366,7 +19366,7 @@ div.wpcf7-response-output {
 }
 
 .header-style-1.remove-gap-removed {
-     margin-bottom: 0px;
+     /* margin-bottom: 0px; */
 }
 
 .header-style-1 .header-top-bar:before, .header-style-1 .header-top-bar:after, .header-style-1 .header-main-area:before, .header-style-1 .header-main-area:after {
@@ -19384,7 +19384,7 @@ div.wpcf7-response-output {
 }
 
 .header-style-1.fixed-header-class .header-main-area .header-logo .logo img {
-     height: 36px;
+     /* height: 36px; */
      width: auto;
 }
 
@@ -19527,7 +19527,7 @@ div.wpcf7-response-output {
      display: block;
      padding: 0px;
      height: auto;
-     min-height: auto;
+     /* min-height: auto; */
      border: 0px;
      text-align: center;
      width: 100px;
